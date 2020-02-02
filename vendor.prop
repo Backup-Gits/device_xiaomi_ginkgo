@@ -94,11 +94,13 @@ vendor.qcom.bluetooth.soc=cherokee
 ro.crypto.allow_encrypt_override=true
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+
 # DRM
 drm.service.enabled=true
 
 # Display
 ro.vendor.display.sensortype=2
+vendor.video.disable.ubwc=1
 
 # FM
 vendor.hw.fm.init=0
