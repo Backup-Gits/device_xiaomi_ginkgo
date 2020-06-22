@@ -33,4 +33,4 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit from custom vendor
-$(call inherit-product-if-exists, vendor/ANXCamera/config.mk)
+$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)

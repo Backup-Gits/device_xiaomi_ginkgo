@@ -106,8 +106,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/releasetools/anx_config.sh:install/bin/anx_config.sh
 
-$(call inherit-product, vendor/ANXCamera/config.mk)
-
 # Context Hub
 PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
