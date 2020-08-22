@@ -429,6 +429,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtinyxml2
 
+# Turbo Notch
+PRODUCT_PACKAGES += \
+    DisplayCutoutEmulationTurboTallOverlay \
+    DisplayCutoutEmulationTurboDoubleOverlay
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
